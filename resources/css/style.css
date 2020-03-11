@@ -1,13 +1,29 @@
+/* -------------------- VARIABLES */
+/* -------------------- GLOBAL DEFAULTS */
 body {
-background-color: lightblue;
-}
+    background-color: lightblue;
+    }
+/* -------------------- HEADINGS AND TYPE */
 h1 {
-font-size: 50px;
-color: white;
-}
+    font-size: 55px;
+    color: papayawhip;
+    font-family: georgia;
+    }
 
-p {
-    font-size: 20px;
-color: navy;
-font-family: baskerville;
-}
+    h2 {
+        font-size: 25px;
+        color: navy;
+    }
+
+    p {
+        font-size: 18px;
+    color: navy;
+    font-family: baskerville;
+    }
+/* -------------------- LAYOUTS */
+/* -------------------- HEADER */
+/* -------------------- NAVIGATION */
+/* -------------------- FOOTER */
+/* -------------------- MODULES */
+
+
