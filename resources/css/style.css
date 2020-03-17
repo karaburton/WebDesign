@@ -2,27 +2,32 @@
 /* -------------------- GLOBAL DEFAULTS */
 body {
     background-color: lightblue;
+    line-height: 1.5;
     }
 
     img {
 max-width: 100%;
     }
 /* -------------------- HEADINGS AND TYPE */
+
 h1,
 h2,
 h3 {
-    font-size: 55px;
-    color: papayawhip;
+color: papayawhip;
     font-family: 'Noto Serif JP', serif;
     }
 
+    h1 {
+        font-size: 30px;
+    }
+
     h2 {
-        font-size: 25px;
+        font-size: 20px;
         color: navy;
     }
 
     p {
-        font-size: 18px;
+        font-size: 16px;
     color: navy;
     font-family: 'Cormorant Garamond', serif;
     }
