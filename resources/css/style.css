@@ -1,7 +1,7 @@
 /* -------------------- VARIABLES */
 /* -------------------- GLOBAL DEFAULTS */
 body {
-    background-color: lightblue;
+    background-color: #D7E5E1;
     line-height: 1.5;
 
     box-sizing: border-box;
@@ -15,17 +15,17 @@ max-width: 100%;
 h1,
 h2,
 h3 {
-color: papayawhip;
-    font-family: 'Noto Serif JP', serif;
+color: black;
+font-family: 'Noto Serif JP', serif;
     }
 
     h1 {
-        font-size: 30px;
+        font-size: 25px;
     }
 
     h2 {
         font-size: 20px;
-        color: navy;
+       
     }
 
     p {
@@ -46,7 +46,7 @@ color: papayawhip;
 }
 /* -------------------- HEADER */
 header { 
-    background-color: peachpuff;
+    
     padding-top: 50px;
     padding-bottom: 20px;
 }
