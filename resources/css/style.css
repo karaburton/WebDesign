@@ -1,7 +1,12 @@
 /* -------------------- VARIABLES */
+:root {
+    --main-bg-color: #D7E5E1;
+--scroll-behaviour: smooth;
+    
+}
 /* -------------------- GLOBAL DEFAULTS */
 body {
-    background-color: #D7E5E1;
+    background-color: var(--main-bg-color);
     line-height: 1.5;
 
     box-sizing: border-box;
@@ -9,6 +14,7 @@ body {
 
     img {
 max-width: 100%;
+height: auto;
     }
 /* -------------------- HEADINGS AND TYPE */
 
@@ -42,17 +48,39 @@ font-family: 'Noto Serif JP', serif;
     padding-left: 3%;
     padding-right: 3%;
 
+    @media screen  and (min-width: 800px) {
+grid-template-columns: 1fr 1fr;
+font-size: 200px;
 
-}
+    }
+        
+    }
+
+
 /* -------------------- HEADER */
 header { 
     
     padding-top: 50px;
     padding-bottom: 20px;
+    text-align: center;
+}
+
+header a {
+    text-decoration: none;
+}
+
+.header-logo img {
+    max-width: 100px;
+}
+
+.header-sub-heading {
+    font-size: 20px;
 }
 
 header h1{
     margin-top: 0;
+
+  
 }
 /* -------------------- NAVIGATION */
 /* -------------------- FOOTER */
