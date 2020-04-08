@@ -63,7 +63,9 @@ header {
     padding-top: 50px;
     padding-bottom: 20px;
     text-align: center;
+    color: black;
 }
+
 
 header a {
     text-decoration: none;
@@ -79,11 +81,28 @@ header a {
 
 header h1{
     margin-top: 0;
-
-  
 }
+
+ @media screen and (max-width: 800px) 
 /* -------------------- NAVIGATION */
+
+.navigation{
+    background-color: var(--alternate-bg-color);
+}
+
+.navigation .content {
+    margin-top:0;
+    padding: 0;
+    list-style: none;
+
+}
 /* -------------------- FOOTER */
+footer {
+    background-color: var(--alternate-bgcolor);
+    padding-top: var(--vertical-spacer);
+    padding-bottom: var(--vertical-spacer);
+text-align: center;
+}
 /* -------------------- MODULES */
 
 
