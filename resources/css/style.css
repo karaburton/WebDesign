@@ -1,6 +1,6 @@
 /* -------------------- VARIABLES */
 :root {
-    --main-bg-color: #D7E5E1;
+    --main-bg-color: #f3ede6;
 --scroll-behaviour: smooth;
     
 }
@@ -21,7 +21,7 @@ height: auto;
 h1,
 h2,
 h3 {
-color: black;
+color: #262690;
 font-family: 'Noto Serif JP', serif;
     }
 
@@ -34,11 +34,8 @@ font-family: 'Noto Serif JP', serif;
        
     }
 
-    p {
-        font-size: 16px;
-    color: navy;
-    font-family: 'Cormorant Garamond', serif;
-    }
+  
+
 /* -------------------- LAYOUTS */
 .content { 
     max-width: 1000px;
@@ -56,10 +53,22 @@ font-size: 200px;
         
     }
 
+    .headshot {
+    max-width: 1000px;
+    margin-left: 100px;
+    margin-right: auto;
+    }
+
+    .description {
+        margin-left: auto;
+        margin-right: 0px;
+    }
+
+
 
 /* -------------------- HEADER */
 header { 
-    
+    font-size: 50px;
     padding-top: 50px;
     padding-bottom: 20px;
     text-align: center;
@@ -76,18 +85,26 @@ header a {
 }
 
 .header-sub-heading {
-    font-size: 20px;
+    font-size: 50px;
 }
 
 header h1{
+    font-size: 60px;
     margin-top: 0;
 }
 
- @media screen and (max-width: 800px) 
+ 
 /* -------------------- NAVIGATION */
-
-.navigation{
+.navigation {
+    color: #262690;
+    position: sticky;
+    top: 0;
     background-color: var(--alternate-bg-color);
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 50px;
+    text-decoration: none;
+    list-style: none;
+    
 }
 
 .navigation .content {
@@ -96,6 +113,7 @@ header h1{
     list-style: none;
     display: flex;
     justify-content: space-between;
+   
 
 
 }
@@ -105,7 +123,52 @@ footer {
     padding-top: var(--vertical-spacer);
     padding-bottom: var(--vertical-spacer);
 text-align: center;
+font-size: 10px;
+}
+.footer {
+    font-size: 10px;
 }
 /* -------------------- MODULES */
 
+p {
 
+    font-size: 35px;
+color: #262690;
+font-family: 'Cormorant Garamond', serif;
+max-width: 1000px;
+margin-left: auto;
+margin-right: auto;
+
+}
+.intro {
+    font-size: 50px;
+    display: grid;
+    grid-template-columns: 20fr 500fr;
+
+}
+
+.headshot{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+/* -------------------- IMAGE GALLERY */
+
+.gallery {
+
+}
+
+.gallery-images{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 0px;
+}
+.gallery-images img{
+    width: 100%;
+}
+@media screen and (min-width: 800px){
+    .gallery-images { 
+        grid-template-columns:1fr 1fr 1fr;
+
+    }
+}
